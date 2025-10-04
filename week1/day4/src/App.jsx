@@ -36,6 +36,7 @@ function App() {
       </div>
 
       <div>
+        <p style ={{textAlign: "center", fontSize: "20px",fontFamily: "monospace",marginTop: "30px"}}>Tugas 5</p>
         <ResponsiveBox/>
       </div>
   </div>
