@@ -1,0 +1,23 @@
+.box {
+  background-color: #bbdefb;
+  padding: 20px;
+  text-align: center;
+  margin: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  background-color:cornflowerblue;
+}
+
+
+@media (max-width: 600px) {
+  .box {
+    background-color: #ffcdd2;
+    padding: 10px;
+  }
+}
