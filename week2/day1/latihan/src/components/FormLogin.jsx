@@ -96,7 +96,7 @@ function FormLogin() {
         type="submit"
         className="w-full py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition duration-200"
       >
-        Login
+        Login!
       </button>
       
     </form>
