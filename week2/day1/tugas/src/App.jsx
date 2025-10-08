@@ -1,33 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import OnMouse from './components/OnMouse.jsx'
+import SyntheticEvent from './components/SyntheticEvent.jsx'
+import ControlledComponent from './components/ControlledComponent.jsx'
+import UncontrolledComponent from './components/UncontrolledComponent.jsx'
+import RegisterForm from './components/RegisterForm.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className=" flex flex-col gap-4 text-center">
+        <div>
+          <p>Tugas 1</p>
+          <OnMouse/>
+        </div>
+
+        <div>
+          <p>Tugas 2</p>
+          <SyntheticEvent/>
+        </div>
+
+        <div>
+          <p>Tugas 3</p>
+          <ControlledComponent/>
+        </div>
+
+        <div>
+          <p>Tugas 4</p>
+          <UncontrolledComponent/>
+        </div>
+
+        <div>
+          <p>Tugas 5</p>
+          <RegisterForm/>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
