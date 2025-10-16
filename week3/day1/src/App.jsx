@@ -56,7 +56,7 @@ function App() {
         <CartProvider>
           <div className="bg-white shadow-md rounded-2xl p-8 w-full max-w-4xl text-center">
             <h1 className="text-3xl font-bold text-gray-800 mb-8">
-              Keranjang Belanja Context
+              Keranjang-Belanja Context
             </h1>
             <div className="flex flex-col md:flex-row justify-center items-start gap-8">
               <ProductList />
