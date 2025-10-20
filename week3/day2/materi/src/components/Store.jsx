@@ -11,7 +11,9 @@ function Store() {
       {data.map((product) => (
         <div
           key={product.id}
-          className="bg-white p-4 rounded-xl shadow hover:shadow-lg hover:bg-blue-100 transition-colors duration-300 hover:scale-105 hover:-translate-y-1 hover:text-amber-500 transition-all duration-500 ease-in-out"
+
+          className="bg-white p-4 rounded-xl shadow hover:shadow-lg hover:bg-blue-100 transition-colors duration-300 hover:scale-105 hover:-translate-y-1 hover:text-amber-500 ease-in-out"
+
 
         >
           <img
